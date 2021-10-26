@@ -1,4 +1,4 @@
-const invertirString = text => {
+const reverseString = text => {
 
     let textoArray = []
     let textoInvertido = ""
@@ -15,5 +15,5 @@ const invertirString = text => {
 }
 
 
-let stringInvertido = invertirString("hola")
+let stringInvertido = reverseString("hola")
 console.log(stringInvertido)
